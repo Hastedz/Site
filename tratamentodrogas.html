@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <script>
+    function voltarPagina() {
+        window.history.back();
+    }
+</script>
+
+<style>
+  .container {
+      font-size: 18px;
+      line-height: 1.8;
+  }
+
+  h2, h4 {
+      font-size: 24px;
+  }
+
+  h1.display-3 {
+      font-size: 36px;
+  }
+
+  ul li {
+      font-size: 18px;
+  }
+  .btn-nav:hover{
+      background-color: #ffffff;;
+      color: rgb(0, 0, 0);
+      }
+
+    .btn-nav{
+    color: rgb(255, 255, 255);
+    }
+</style>
+ 
+<body>
+<!--ConfiguraçõesOFFCanvas-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Configurações</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container mt-1 bg-secondary">
+      <a href="Conta.html" class="btn ">Conta</a>
+    </div>
+    <div class="container mt-3 bg-secondary">
+      <a href="Login.html" class="btn ">Login</a>
+    </div>
+  </div>
+</div>
+<!--Nav-->
+    <nav class="navbar navbar-expand-lg sticky-sm-top" style="background-color: #617b4c;">
+        <div class="container-fluid">
+          <img src="EducaSubstanciasLogo.png" alt="Bootstrap" width="7%" height="7%">
+<!--SearchBar-->
+            <div class="container-fluid g-5" style="width: 55%;">
+              <form class="d-flex" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit" style="position: relative; right: 6%;">
+                    <i class="bi bi-search"></i>
+                </button>
+              </form>
+            </div>
+<!--Toggler-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!--Navbar-->          
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="btn me-2 btn-nav" aria-current="page" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn  me-2 btn-nav" aria-current="page" href="SobreNos.html">SobreNós</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn me-2 btn-nav" href="Diario.html" aria-current="page">Diario</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-current="page">Configurações</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<section class="text-white" style="background-color: #88B257;">
+  <button onclick="voltarPagina()" class="btn "> <i class="bi bi-arrow-left"></i> Voltar</button>
+  <div class="container py-auto">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="lc-block m-5 pb-4 mt-lg-5 text-start">
+          <div editable="rich">
+            <h2 class="fw-bold display-2">Alcoolismo</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="alcol.jpg" 
+             class="img-fluid d-lg-block d-none mx-auto" 
+             style="max-width: 75%; height: auto;" 
+             alt="Imagem ilustrativa" 
+             loading="lazy">
+    </div>    
+    </div>
+  </div>
+</section>
+
+<body>
+    <section class="container my-5">
+        <div class="row justify-content-between">
+            <div class="col-md-10 text-justify mb-5">
+                <h2 class="mb-4 text-primary">Sobre as Drogas</h2>
+                <p>
+                    O álcool, substância psicoativa com propriedades que causam dependência, tem sido amplamente utilizado em muitas culturas durante os séculos. Seu uso nocivo tem um grande peso na carga de doenças, além de um ônus social e econômico para as sociedades. O álcool afeta as pessoas e as sociedades de muitas formas, e seus efeitos são determinados pelo volume consumido, pelos padrões de consumo e, em raras ocasiões, pela qualidade do álcool. O uso nocivo do álcool também pode resultar em danos a outras pessoas, como membros da família, amigos, colegas de trabalho ou estranhos. Além disso, o uso nocivo de bebidas alcoólicas resulta em um fardo significativo em termos sociais, econômicos e de saúde. O consumo de álcool é um fator causal em mais de 200 doenças e lesões. Está associado ao risco de desenvolvimento de problemas de saúde, tais como distúrbios mentais e comportamentais, incluindo dependência ao álcool, doenças não transmissíveis graves, como cirrose hepática, alguns tipos de câncer e doenças cardiovasculares, bem como lesões resultantes de violência e acidentes de trânsito. Uma proporção significativa da carga de doenças atribuíveis ao consumo de álcool decorre de lesões intencionais e não intencionais, incluindo aquelas causadas por acidentes de trânsito, violência e suicídios. Lesões fatais relacionadas ao álcool tendem a ocorrer em grupos relativamente mais jovens. As relações causais mais recentes são aquelas entre o uso nocivo de álcool e a incidência de doenças infecciosas, como a tuberculose e o HIV/aids. O consumo de álcool por mulheres grávidas pode causar síndrome fetal do álcool e complicações no parto prematuro.
+                </p>
+    
+                <h4 class="mt-4 text-secondary">Principais Fatos</h4>
+                <p>O alcoolismo não se refere apenas ao consumo excessivo de álcool em uma única ocasião, como em festas ou eventos sociais. Ele se caracteriza por um padrão repetitivo e prejudicial de uso de álcool que pode incluir:</p>
+                <ul>
+                    <li>Em todo o mundo, 3 milhões de mortes por ano resultam do uso nocivo do álcool, representando 5,3% de todas as mortes.</li>
+                    <li>O uso nocivo de álcool é um fator causal para mais de 200 doenças e lesões.</li>
+                    <li>Em geral, 5,1% da carga mundial de doenças e lesões são atribuídas ao consumo de álcool, conforme calculado em termos de Anos de Vida Perdidos Ajustados por Incapacidade (DALY, sigla em inglês).</li>
+                    <li>O consumo de álcool causa morte e incapacidade relativamente cedo na vida. Na faixa etária de 20 a 39 anos, aproximadamente 13,5% do total de mortes são atribuíveis ao álcool.</li>
+                    <li>Foram estabelecidas recentemente relações causais entre o consumo nocivo do álcool e a incidência de doenças infecciosas, tais como tuberculose e HIV/aids.</li>
+                </ul>
+    
+                <h4 class="mt-4 text-secondary">Fatores de Risco</h4>
+                <p>O alcoolismo não tem uma causa única. Ele surge a partir da interação de fatores genéticos, psicológicos, sociais e ambientais. Alguns dos fatores que aumentam o risco de desenvolver o transtorno incluem:</p>
+                <ul>
+                    <li><strong>Histórico familiar de alcoolismo:</strong> Há uma predisposição genética que torna algumas pessoas mais vulneráveis.</li>
+                    <li><strong>Problemas emocionais:</strong> Ansiedade, depressão e baixa autoestima podem levar ao uso do álcool como forma de "fuga".</li>
+                    <li><strong>Pressão social:</strong> Influência de amigos, colegas ou normas culturais que incentivam o consumo de álcool.</li>
+                    <li><strong>Exposição precoce:</strong> O início do consumo de álcool em idades jovens aumenta o risco de dependência na vida adulta.</li>
+                </ul>
+    
+                <h4 class="mt-4 text-secondary">Possíveis Tratamentos</h4>
+                <p>
+                    O alcoolismo, ou transtorno do uso de álcool, é uma condição séria que pode impactar profundamente a vida de um indivíduo e de todos ao seu redor. Embora o tratamento do alcoolismo seja desafiador e possa exigir um longo processo de recuperação, ele é possível. É fundamental entender que o alcoolismo é uma doença crônica e não uma falha moral.
+                </p>
+                <ul>
+                    <li><strong>Desintoxicação:</strong> Remove o álcool do organismo e gerencia os sintomas de abstinência sob supervisão médica.</li>
+                    <li><strong>Terapia comportamental:</strong> A Terapia Cognitivo-Comportamental (TCC) ajuda a identificar padrões prejudiciais e a desenvolver estratégias saudáveis.</li>
+                    <li><strong>Grupos de apoio:</strong> Organizações como Alcoólicos Anônimos oferecem suporte emocional e uma rede de solidariedade.</li>
+                    <li>
+                        <strong>Medicação:</strong>
+                        <ul>
+                            <li>Disulfiram: Causa reações adversas ao consumo de álcool.</li>
+                            <li>Naltrexona: Reduz o desejo por álcool.</li>
+                            <li>Acamprosato: Ajuda a manter a abstinência.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Suporte familiar:</strong> Terapia familiar é essencial para apoiar o indivíduo e reconstruir relações familiares.</li>
+                </ul>
+                <h4>Onde buscar ajuda?</h4>
+                <p>
+                  O álcool é apontado por diversas pesquisas realizadas no Brasil, com o índice de consumo mais elevado. Para o tratamento do vício em bebidas alcoólicas, pode-se referenciar as seguintes clínicas:
+                </p>
+                <a href="https://www.clinicamaia.com.br/" class="btn bg-success text-white">Clinica 1</a>
+                <a href="https://hospitalsantamonica.com.br/dependencia-quimica/alcoolismo/" class="btn bg-success text-white">Clinica 2</a>
+                <a href="https://www.gruporecanto.com.br/" class="btn bg-success text-white">Clinica 3</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  <!--Footer-->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Informações Adicionais</span>
+    </div>
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+</section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Sobre nos
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde placeat accusamus doloribus mollitia, necessitatibus velit voluptate quasi. Atque, esse repellat.
+          </p>
+        </div>
+       
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Redes Sociais
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Twitter</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Facebook</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Instagram</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"></a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+          <p><i class="fas fa-home me-3"></i> Taboão da serra, SP</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            EducaSubstancias@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 11 254 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 11 234 567 89</p>
+        </div>
+      </div>
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
